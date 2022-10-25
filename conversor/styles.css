@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+} 
+
+.container
+{
+    height: 100vh;
+    background-color: #95ccfc;
+}
+
+.form
+{
+    margin: 18px 18px 6px 0;
+    display: inline-block;
+}
+
+.titleOptions
+{
+    font-size: 20px;
+}
+
+#selecaoEscala1, #selecaoEscala2
+{
+   display: block; 
+   width: 100%;
+   margin-top: 8px;
+   padding: 6px;
+   font-size: 18px;
+}
+
+.input
+{
+    margin-right: 18px;
+    width: 31%;
+    padding: 6px;
+    font-size: 18px;
+}
+
+#secondInput
+{
+    background-color: #67E972;
+    font-weight: bold;
+    color: black;
+
+}

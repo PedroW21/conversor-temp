@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1 class="title-page">Conversor de Temperatura</h1>
+
+    <div class="form-options">
+
+        <form action="#" class="form" id="form1">
+            <label for="scaleoptions1">Selecione uma escala</label>
+            <select name="temperature-options" id="scaleoptions1" class="label-options">
+                <option value="celcius">Celcius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </form>
+
+        <form action="#" class="form">
+            <label for="scaleoptions2">Selecione uma escala</label>
+            <select name="temperature-options" id="scaleoptions2" class="label-options">
+                <option value="kelvin">Kelvin</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celcius">Celcius</option>
+            </select>
+        </form>
+
+        <div class="inputs">
+            <input type="number" class="input" id="input1" placeholder="Digite um valor">
+            <input type="text" class="input" id="input2" placeholder="Resultado" disabled>
+        </div>
+
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
